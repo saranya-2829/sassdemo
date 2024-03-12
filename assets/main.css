@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+* {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: lightblue;
+  border-radius: 4%;
+  margin: 20px 100px;
+  box-shadow: solid 18px yellowgreen;
+  padding: 30px;
+  font-size: 30px;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.main-container {
+  gap: 10px;
+  box-shadow: solid 18px yellowgreen;
+  font-size: 30px;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.heading {
+  color: blue;
+  font-size: 30px;
+}
+
+aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: bottom;
+  font-style: italic;
+  color: blue;
+}/*# sourceMappingURL=main.css.map */

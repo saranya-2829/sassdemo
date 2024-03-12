@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 30px;
+$font-family: "Protest Riot", sans-serif;
+
+*{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:$bgcolor;
+    border-radius: 4%;
+    margin: 20px 100px;
+    box-shadow: solid 18px yellowgreen;
+    padding: 30px;
+    font-size: $fontsize;
+    font-family: $font-family;
+}
+
+.main-container{
+    gap:10px;
+    box-shadow: solid 18px yellowgreen;
+    font-size: $fontsize;
+    font-family: $font-family;
+}
+.heading{
+    color: blue;
+    font-size: $fontsize;
+}
+
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: bottom;
+    font-style: italic;
+    color:blue;
+    // background-color: lightgray;
+  }
